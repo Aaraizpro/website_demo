@@ -337,18 +337,19 @@
   .breadcrumb svg{width:13px; height:13px;}
   .service-hero{position:relative; overflow:hidden; border-bottom:1px solid var(--line); padding:52px 0 0;}
   .service-hero-grid{display:grid; grid-template-columns:1.1fr 0.9fr; gap:56px; align-items:center; padding-bottom:56px;}
-  .service-hero h1{font-size:clamp(30px,4vw,46px); font-weight:700; margin:14px 0 18px; max-width:16ch;}
-  .service-hero p.lede{font-size:16.5px; color:var(--ink-soft); max-width:48ch; margin-bottom:26px;}
+  .service-hero h1{font-size:clamp(30px,4vw,46px); font-weight:700; line-height:1.15; margin-top:14px; margin-bottom:20px; max-width:16ch;}
+  .service-hero p.lede{font-size:16.5px; line-height:1.6; color:var(--ink-soft); max-width:48ch; margin-top:0; margin-bottom:26px;}
   .service-hero-photo{aspect-ratio:5/4; border-radius:6px; overflow:hidden; border:1px solid var(--line); box-shadow:10px 12px 0 rgba(15,63,52,0.08);}
   .service-hero-photo img{width:100%; height:100%; object-fit:cover;}
   .service-pill{display:inline-flex; align-items:center; gap:6px; font-family:'IBM Plex Mono'; font-size:10.5px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--teal); border:1px dashed var(--teal); border-radius:100px; padding:5px 11px; margin-bottom:6px;}
   .detail-grid{display:grid; grid-template-columns:1.4fr 1fr; gap:60px; align-items:start;}
-  .detail-copy p{color:var(--ink-soft); font-size:15.5px; margin-bottom:16px; max-width:56ch;}
-  .detail-copy h2{font-size:clamp(22px,2.6vw,28px); font-weight:700; margin:6px 0 16px;}
+  .detail-copy p{color:var(--ink-soft); font-size:15.5px; line-height:1.6; margin-top:0; margin-bottom:16px; max-width:56ch;}
+  .detail-copy h2{font-size:clamp(22px,2.6vw,28px); font-weight:700; line-height:1.25; margin-top:0; margin-bottom:22px;}
   .included-list{list-style:none; margin-top:8px;}
   .included-list li{display:flex; align-items:flex-start; gap:12px; padding:12px 0; border-bottom:1px solid var(--line); font-size:15px; color:var(--ink-soft);}
   .included-list li:first-child{padding-top:0;}
   .included-list li:last-child{border-bottom:none;}
+  .included-list li b{font-family:'Space Grotesk'; font-weight:600; color:var(--ink); margin-right:6px;}
   .side-card{background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:26px;}
   .side-card h3{font-family:'Space Grotesk'; font-size:17px; font-weight:600; margin-bottom:14px;}
   .side-card p{font-size:14px; color:var(--ink-soft); margin-bottom:18px;}
